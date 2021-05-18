@@ -8,6 +8,11 @@ function Puzzles() {
                 <div className="col-4 puzzle"><Card /></div>
                 <div className="col-4 puzzle"><Card /></div>
             </div>
+            <div className="row">
+                <div className="col-4 puzzle"><Card /></div>
+                <div className="col-4 puzzle"><Card /></div>
+                <div className="col-4 puzzle"><Card /></div>
+            </div>
         </div>
     );
 }
