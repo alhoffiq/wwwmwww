@@ -1,0 +1,11 @@
+.home-banner {
+    padding: 20px;
+}
+
+.puzzle {
+    padding: 20px;
+}
+
+#puzzle-container {
+    max-width: 80%;
+}

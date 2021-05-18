@@ -1,7 +1,14 @@
+import Card from '../components/Card';
 
 function Puzzles() {
     return (
-        <div>Puzzles</div>
+        <div className="container text-center" id="puzzle-container">
+            <div className="row">
+                <div className="col-4 puzzle"><Card /></div>
+                <div className="col-4 puzzle"><Card /></div>
+                <div className="col-4 puzzle"><Card /></div>
+            </div>
+        </div>
     );
 }
 
