@@ -6,7 +6,7 @@ const NavbarComp = () => {
 
     return (
         <Navbar bg="dark" variant="dark">
-            <Navbar.Brand>Andrew Hoff</Navbar.Brand>
+            <Navbar.Brand>wwwmwww</Navbar.Brand>
             <Nav className="mr-auto">
                 <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>Home</Link>
                 <Link to="/puzzles" className={location.pathname === "/puzzles" ? "nav-link active" : "nav-link"}>Puzzles</Link>
