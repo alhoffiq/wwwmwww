@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Puzzles from './pages/Puzzles';
@@ -11,17 +11,9 @@ function App() {
     <Router>
       <Navbar />
       <div className="main">
-        <Switch>
-          <Route exact path='/'>
-            <Home />
-          </Route>
-          <Route path='/puzzles'>
-            <Puzzles />
-          </Route>
-          <Route path='/contact'>
-            <Contact />
-          </Route>
-        </Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/puzzles' component={Puzzles} />
+        <Route exact path='/contact' component={Contact} />
       </div>
     </Router>
   );
