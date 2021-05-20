@@ -1,5 +1,6 @@
 import banner from '../assets/images/puzzle-banner.jpg';
 import Awards from '../components/Awards';
+import untouchable from '../assets/images/untouchable.jpg';
 
 function Home() {
     return (
@@ -19,8 +20,8 @@ function Home() {
                     <div className="row award-row">
                         <Awards
                             title="Gamepuzzles Annual Polyomino Excellence Award for 2015 — 'Untouchable 11 cube-fold hexominoes'"
-                            link="https://www.gamepuzzles.com/gape15.htm"
-                            image="https://www.gamepuzzles.com/gape2015-tower.jpg"
+                            link={untouchable}
+                            image="http://www.gamepuzzles.com/gape2015-tower.jpg"
                             alt="Untouchable 11"
                         />
                     </div>
