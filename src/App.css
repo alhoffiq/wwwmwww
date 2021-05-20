@@ -13,3 +13,9 @@
 .contacts {
     width: 50%!important;
 }
+
+.award-row {
+    border: 5px solid;
+    padding: 5px;
+    margin-bottom: 5px;
+}
