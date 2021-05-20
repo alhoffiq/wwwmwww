@@ -19,7 +19,7 @@ function Home() {
                     <div className="row award-row">
                         <Awards
                             title="Gamepuzzles Annual Polyomino Excellence Award for 2015 — 'Untouchable 11 cube-fold hexominoes'"
-                            link="http://www.gamepuzzles.com/gape15.htm"
+                            link="https://www.gamepuzzles.com/gape15.htm"
                             image="http://www.gamepuzzles.com/gape2015-tower.jpg"
                             alt="Untouchable 11"
                         />
