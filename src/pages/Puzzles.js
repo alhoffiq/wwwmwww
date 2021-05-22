@@ -1,17 +1,21 @@
 import Card from '../components/Card';
+import puzzles from '../assets/puzzles.json';
 
 function Puzzles() {
     return (
         <div className="container text-center" id="puzzle-container">
             <div className="row">
-                <div className="col-4 puzzle"><Card /></div>
-                <div className="col-4 puzzle"><Card /></div>
-                <div className="col-4 puzzle"><Card /></div>
-            </div>
-            <div className="row">
-                <div className="col-4 puzzle"><Card /></div>
-                <div className="col-4 puzzle"><Card /></div>
-                <div className="col-4 puzzle"><Card /></div>
+                {puzzles.map(puzzle => {
+                    return (
+                        <div className="col-3 puzzle">
+                            <Card
+                                name={puzzle.name}
+                                description={puzzle.description}
+                                image={puzzle.image}
+                            />
+                        </div>
+                    );
+                })}
             </div>
         </div>
     );
