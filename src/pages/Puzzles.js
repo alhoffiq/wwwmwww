@@ -4,19 +4,19 @@ import puzzles from '../assets/puzzles.json';
 function Puzzles() {
     return (
         <div className="container text-center" id="puzzle-container">
-            <div className="row">
+            <ul className="row">
                 {puzzles.map(puzzle => {
                     return (
-                        <div className="col-3 puzzle">
+                        <li className="col-3 puzzle" key={puzzle.name}>
                             <Card
                                 name={puzzle.name}
                                 description={puzzle.description}
                                 image={puzzle.image}
                             />
-                        </div>
+                        </li>
                     );
                 })}
-            </div>
+            </ul>
         </div>
     );
 }
