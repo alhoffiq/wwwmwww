@@ -13,10 +13,10 @@ function Home() {
             <div className="row">
                 <div className="col-3">
                     <h1 className="text-center side-header">Articles</h1>
-                    <div className="side-bar">
+                    <div className="row side-bar justify-content-center">
                         <a href="https://cff.helm.lu/" target="_blank" rel="noreferrer"><Image src="https://cff.helm.lu/images/CFF_web3.gif" alt="CFF" fluid /></a>
                     </div>
-                    <div className="side-bar text-center">
+                    <div className="row side-bar justify-content-center">
                         <a href="http://gapdjournal.com/issues/" target="_blank" rel="noreferrer"><Image src={gapd} alt="gapd" fluid /></a>
                     </div>
                 </div>
