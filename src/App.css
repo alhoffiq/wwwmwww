@@ -1,3 +1,7 @@
+body {
+    background-image: url(assets/images/background.jpg)
+}
+
 .home-banner {
     padding: 20px;
 }
@@ -6,6 +10,7 @@
     padding: 20px;
     border: 2px solid;
     margin-top: 5px;
+    background-color: lightgray;
 }
 
 .card-body {
@@ -29,9 +34,16 @@
 }
 
 .side-bar {
+    background-color: lightgray;
     border: 5px solid;
     padding: 5px;
     margin-bottom: 5px;
+}
+
+.home-text {
+    background-color: lightgray;
+    border: 2px solid;
+    padding: 5px;
 }
 
 ul {
@@ -40,6 +52,7 @@ ul {
 
 .banner {
     width: 33%;
+    border: 2px solid;
 }
 
 .card {

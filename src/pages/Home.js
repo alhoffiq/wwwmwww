@@ -21,7 +21,9 @@ function Home() {
                     </div>
                 </div>
                 <div className="col-6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus orci ac auctor augue mauris augue neque gravida. At tellus at urna condimentum mattis pellentesque id nibh tortor. Elementum curabitur vitae nunc sed velit dignissim sodales ut eu. Feugiat in ante metus dictum at tempor commodo ullamcorper. Lacus vel facilisis volutpat est velit. Sit amet mauris commodo quis imperdiet massa tincidunt. Non arcu risus quis varius quam quisque. Quam id leo in vitae turpis massa sed elementum tempus. Nulla facilisi nullam vehicula ipsum a arcu. Auctor urna nunc id cursus metus aliquam eleifend mi.</p>
+                    <div className="home-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus orci ac auctor augue mauris augue neque gravida. At tellus at urna condimentum mattis pellentesque id nibh tortor. Elementum curabitur vitae nunc sed velit dignissim sodales ut eu. Feugiat in ante metus dictum at tempor commodo ullamcorper. Lacus vel facilisis volutpat est velit. Sit amet mauris commodo quis imperdiet massa tincidunt. Non arcu risus quis varius quam quisque. Quam id leo in vitae turpis massa sed elementum tempus. Nulla facilisi nullam vehicula ipsum a arcu. Auctor urna nunc id cursus metus aliquam eleifend mi.</p>
+                    </div>
                 </div>
                 <div className="col-3">
                     <h2 className="text-center">Awards</h2>
