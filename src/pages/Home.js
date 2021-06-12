@@ -12,7 +12,7 @@ function Home() {
             </div>
             <div className="row">
                 <div className="col-3">
-                    <h2 className="text-center">Articles</h2>
+                    <h1 className="text-center side-header">Articles</h1>
                     <div className="side-bar">
                         <a href="https://cff.helm.lu/" target="_blank" rel="noreferrer"><Image src="https://cff.helm.lu/images/CFF_web3.gif" alt="CFF" fluid /></a>
                     </div>
@@ -26,7 +26,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="col-3">
-                    <h2 className="text-center">Awards</h2>
+                    <h1 className="text-center side-header">Awards</h1>
                     <div className="row side-bar">
                         <Awards
                             title="Gamepuzzles Annual Polyomino Excellence Award for 2015 — 'Untouchable 11 cube-fold hexominoes'"

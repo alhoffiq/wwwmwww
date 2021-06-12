@@ -58,3 +58,9 @@ ul {
 .card {
     border: none!important;
 }
+
+.side-header {
+    color: white;
+    font-size: 60px;
+    -webkit-text-stroke: 2px black;
+}
