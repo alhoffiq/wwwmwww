@@ -5,11 +5,13 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Puzzles from './pages/Puzzles';
 import Contact from './pages/Contact';
+import WIP from './components/WIP';
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <WIP />
       <div className="main">
         <Route exact path='/' component={Home} />
         <Route exact path='/puzzles' component={Puzzles} />
