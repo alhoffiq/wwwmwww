@@ -3,6 +3,7 @@ import gapd from '../assets/images/gapd.png';
 import banner from '../assets/images/logo.png';
 import Awards from '../components/Awards';
 import untouchable from '../assets/images/untouchable.jpg';
+import award2016 from '../assets/images/award2016.png';
 
 function Home() {
     return (
@@ -39,7 +40,7 @@ function Home() {
                         <Awards
                             title="2016 Puzzle Design Competition Jury Honorable Mention — WOW5"
                             link="https://johnrausch.com/DesignCompetition/2016/results.htm"
-                            image="https://puzzleringmaker.com/z_it_WO_9.jpg"
+                            image={award2016}
                             alt="WOW5"
                         />
                     </div>
