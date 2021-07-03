@@ -68,3 +68,15 @@ ul {
 .card-img-top {
     padding: 5px;
 }
+
+.puzzle-buttons {
+    padding: 10px;
+}
+
+.puzzle-row {
+    padding-left: 0px;
+}
+
+.hide {
+    display: none!important;
+}
