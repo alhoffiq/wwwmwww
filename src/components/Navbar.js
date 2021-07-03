@@ -11,7 +11,7 @@ const NavbarComp = () => {
                 <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>Home</Link>
                 <Link to="/puzzles" className={location.pathname === "/puzzles" ? "nav-link active" : "nav-link"}>Puzzles</Link>
                 <NavDropdown title="Shop">
-                    <NavDropdown.Header>Cube Puzzles</NavDropdown.Header>
+                    <NavDropdown.Header>Twisty Puzzles</NavDropdown.Header>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="https://www.shapeways.com/shops/wwwmwww">Shapeways</NavDropdown.Item>
                     <NavDropdown.Item href="https://i.materialise.com/en/shop/designer/carl-hoff">i.materialise</NavDropdown.Item>
@@ -19,7 +19,7 @@ const NavbarComp = () => {
                     <NavDropdown.Item href="https://www.hknowstore.com/categoryofcorp.aspx?search=bubbloid">HK Now Store</NavDropdown.Item>
                     <NavDropdown.Item href="https://www.etsy.com/shop/grigorusha?ref=simple-shop-header-name&listing_id=820431328&section_id=29439418">Etsy</NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Header>Ring Puzzles</NavDropdown.Header>
+                    <NavDropdown.Header>Puzzle Rings</NavDropdown.Header>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="https://puzzleringmaker.com/index.php?ref=item&id=97">WOW5</NavDropdown.Item>
                     <NavDropdown.Item href="https://puzzleringmaker.com/index.php?ref=item&id=326">WOW5 Lite</NavDropdown.Item>
