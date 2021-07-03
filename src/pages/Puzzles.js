@@ -39,24 +39,16 @@ function Puzzles() {
         <div className="container text-center" id="puzzle-container">
             <div className="row puzzle-buttons mx-auto">
                 <div className="col-3">
-                    <Button variant="secondary" size="lg" block onClick={() => showAll()}>
-                        All
-                    </Button>
+                    <Button variant="secondary" size="lg" block onClick={() => showAll()}>All</Button>
                 </div>
                 <div className="col-3">
-                    <Button variant="secondary" size="lg" block onClick={() => showTwisty()}>
-                        Twisty Puzzles
-                    </Button>
+                    <Button variant="secondary" size="lg" block onClick={() => showTwisty()}>Twisty Puzzles</Button>
                 </div>
                 <div className="col-3">
-                    <Button variant="secondary" size="lg" block onClick={() => showRing()}>
-                        Puzzle Rings
-                    </Button>
+                    <Button variant="secondary" size="lg" block onClick={() => showRing()}>Puzzle Rings</Button>
                 </div>
                 <div className="col-3">
-                    <Button variant="secondary" size="lg" block onClick={() => showPack()}>
-                        Packing Puzzles
-                    </Button>
+                    <Button variant="secondary" size="lg" block onClick={() => showPack()}>Packing Puzzles</Button>
                 </div>
             </div>
             <ul className="row puzzle-row">

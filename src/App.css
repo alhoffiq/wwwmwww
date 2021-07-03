@@ -80,3 +80,9 @@ ul {
 .hide {
     display: none!important;
 }
+
+.btn {
+    color: black!important;
+    border: 2px solid!important;
+    background-color: lightgray!important;
+    box-shadow: 5px 10px 10px}
