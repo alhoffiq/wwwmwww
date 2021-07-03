@@ -7,7 +7,7 @@ function Puzzles() {
             <ul className="row">
                 {puzzles.map(puzzle => {
                     return (
-                        <li className="col-3 puzzle" key={puzzle.name}>
+                        <li className={puzzle.type + " col-3 puzzle"} key={puzzle.name}>
                             <Card
                                 name={puzzle.name}
                                 description={puzzle.description}
