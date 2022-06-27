@@ -176,13 +176,19 @@
     {
         "name": "Hazmat Cargo",
         "description": "This is the FDM version of Hazmat Cargo. The goal is to pack the 9 pieces onto the 11x11 board.",
-        "image": "http://www.chewiescustomstickers.com/assets/IMG_20201009_153137.jpg",
+        "image": "https://images.squarespace-cdn.com/content/v1/623fa9ea7b61767894a3bca2/1648485425997-X85KS2NN9QBKXWQD8T2N/IMG_20201009_153137.jpg?format=750w",
         "type": "pack"
     },
     {
         "name": "Social Distancing",
         "description": "This is the FDM version of Social Distancing. Nine pentominos walk into a bar, you need to seat the nine pentominos while following social distancing guidelines.",
-        "image": "http://www.chewiescustomstickers.com/assets/IMG_20201011_142310.jpg",
+        "image": "https://images.squarespace-cdn.com/content/v1/623fa9ea7b61767894a3bca2/1648485752292-FLYT38TDGLGX0MCGWT4C/IMG_20201011_142310.jpg?format=750w",
+        "type": "pack"
+    },
+    {
+        "name": "Hex-Pave",
+        "description": "Hex-Pave has 15 hexagons, each with a unique combination of 1 to 3 units of length per side and equal angles. Tiles are sorted by color into matching symmetry groups. All but one have mirror symmetry; the oddball is rotational. Its basic assembly is a regular hexagon; 11 other shapes of 6 triangles exist",
+        "image": "http://www.gamepuzzles.com/hex-pave.gif",
         "type": "pack"
     }
 ]
